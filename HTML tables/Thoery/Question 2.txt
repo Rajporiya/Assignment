@@ -1,0 +1,95 @@
+What is the difference between colspan and rowspan in tables? Provide examples.
+    --> In HTML table 'colspan' and 'rowspan' are attributes used <td> and <th> elements to control how many column
+         or rows a cell should span.
+
+    Colspan :- (Colspan)     
+        --> The caolspan attribute specifies the number of column a cell should span across.
+        --> For example, if you have a cell that should cover two column, you set 'colspan=2'.
+
+    Rowspan :- (Rowspan)
+        --> The 'rowspan' attribute specifies the number of rows a cell should span downwards.
+        --> For Example, if you you have a cell that should cover three rows, you would set 'rowspan=3'.
+
+
+    Colspan Example :-   
+        <!DOCTYPE html>
+            <html>
+            <head>
+                <meta charset='utf-8'>
+                <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+                <title>Page Title</title>
+                <meta name='viewport' content='width=device-width, initial-scale=1'>
+                <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+                <script src='main.js'></script>
+                <style>
+                    table{
+                        border-collapse: collapse;
+                    }
+                </style>
+            </head>
+            <body>
+                <table border="1">
+                    <tr>
+                        <th>No. </th>
+                        <th>Details</th>
+                        <th>Prise</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+
+                    <tr>
+                        <td>1.</td>
+                        <td>Shirt</td>
+                        <td>900</td>
+                        <td>4</td>
+                        <td>3600</td>
+                    </tr>
+                    <tr>
+                        <td>2.</td>
+                        <td>T-Shirt</td>
+                        <td>1500</td>
+                        <td>5</td>
+                        <td>7500</td>
+                    </tr>
+                    <tr>
+                        <td>3.</td>
+                        <td>Jeanse</td>
+                        <td>2000</td>
+                        <td>10</td>
+                        <td>20000</td>
+                    </tr>
+                    <tr>
+                    <td colspan="4" align="center">Total </td>
+                    <td style="background-color: black; color: white; "><b>31,100</b></td></tr>
+                    
+                </table>
+            </body>
+            </html>
+
+
+
+    Rowspan Example :- 
+        <!DOCTYPE html>
+            <html>
+            <head>
+                <meta charset='utf-8'>
+                <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+                <title>Page Title</title>
+                <meta name='viewport' content='width=device-width, initial-scale=1'>
+                <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+                <script src='main.js'></script>
+            </head>
+            <body>
+                <table border="1">
+                    <tr>
+                        <th rowspan="6">List of Car</th>
+                    </tr>
+                    <tr><td>Thar</td></tr>
+                    <tr><td>Creata</td></tr>
+                    <tr><td>Meridian</td></tr>
+                    <tr><td>Kwid</td></tr>
+                    <tr><td>Amaze</td></tr>
+                    
+                </table>
+            </body>
+            </html>

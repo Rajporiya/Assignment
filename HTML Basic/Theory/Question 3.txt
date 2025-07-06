@@ -1,0 +1,54 @@
+What is the difference between block-level elements and inline elements in HTML? Provide examples of each.
+    --> In HTML, elements are categorized into two main types: block-level elements and inline elements. 
+    --> The key differences between them are as follows:
+
+Block-Level Elements :- 
+    1. Display Behavior:
+        --> Block-level elements take up the full width available, meaning they start on a new line and extend the entire width of their
+             parent container.
+    2. Structure: 
+        --> They are typically used to create the main structure of a web page. Common block-level elements include:
+            <div>,
+            <p>,
+            <h1>, <h2>, <h3>, etc. (headings)
+            <ul>, <ol>, <li> (lists)
+            <header>, <footer>, <section>, <article>
+
+    3. Containment:
+        --> Block-level elements can contain other block-level elements as well as inline elements.
+
+    4. Examples:-
+        --> <div>: A generic container for grouping content.
+        --> <p>: Represents a paragraph of text.
+        --> <h1>, <h2>, <h3>, etc.: Headings of different levels.
+        --> <ul>: An unordered list.
+        --> <ol>: An ordered list.
+        --> <li>: A list item within a list.
+        --> <header>: Represents introductory content or a group of navigational links.
+        --> <footer>: Represents footer content for a section or page.
+       
+Inline Elements
+    
+    1. Display Behavior:-
+        --> Inline elements do not start on a new line; they only take up as much width as necessary. They flow within the content
+            of block-level elements.
+    
+    2. Purpose:-
+        --> Inline elements are typically used for smaller pieces of content within a block. Common inline elements include:
+            <span>
+            <a> (anchor/link)
+            <strong> (bold text)
+            <em> (italic text)
+            <img> (image)
+
+    3. Containment:- 
+        --> Inline elements can only contain text and other inline elements, but not block-level elements.
+
+    4. Examples :-  
+         --> <span>: A generic inline container for text or other inline elements.
+        --> <a>: An anchor element used to create hyperlinks.
+        --> <strong>: Indicates that the text is of strong importance (usually rendered as bold).
+        --> <em>: Indicates emphasized text (usually rendered as italic).
+        --> <img>: Embeds an image within the content.
+        --> <br>: Inserts a line break.
+        --> <code>: Represents a fragment of computer code.

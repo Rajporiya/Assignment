@@ -1,0 +1,76 @@
+: Explain the structure of an HTML table and the purpose of each of the following elements: <table>, <tr>, <th>, <td>, and <thead>.
+
+    --> Hear is the structure of an HTML Table :-
+
+        <table>
+            <thead>
+                <tr>   
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>    
+            </tfoot>
+        </table>
+     --> An HTML table is structured using th <table>tag.
+     --> which contains rows<tr>, table data cells<td>, and optionally header cells<th>.
+     --> Rows are defined by <tr> tags and within each now.
+
+
+
+    Purpose of following elements :-
+
+    1. <table>
+        --> The container element that defines an HTML table.
+        --> Table tags calls the table content (rows, cells, header etc.)
+        --> without tables tags the browser will not recognize the content as a table.
+    
+    2. <tr>
+        --> <tr> means table row.
+        --> each <tr> represents a horizontal row of cells.
+
+    3. <th>
+        --> <th> means table header
+        --> Typically appears in the first row / first column.
+        --> text inside <th> is bold and centered by default.
+
+    4. <td>
+        --> <td> means table data
+        --> <td> text is left aligned and normal weight by default.
+
+    5. <thead>
+        --> <thead> means Table header
+        --> contains one or more <tr> element with <th> cells.
+        ==> Help browsers and screen readers identiy column header.
+        --> Optional but recommended for better and accessibility.        
+
+    

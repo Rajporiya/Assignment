@@ -1,0 +1,96 @@
+Explain the difference between the GET and POST methods in form submission. When should each be used?
+
+    --> The Get and POST methods are two of the most commonly used HTTP request method for form submission in web application.
+    --> Here's breakdown of their differences and when to user each
+
+    Get Method :-
+        --> 1. Data Transmission: :- 
+                --> The GET method appends data to the URL in the form of query parameters. For example, a form submission might look like this:
+
+            2. Visibility :-
+                --> Data sent via GET is visible in the URL, which can be bookmarked or shared. This makes it less secure for sensitive information.
+            
+            3. Data Length:-
+                --> There is a limit to the amount of data that can be sent using GET, typically around 2048 characters, depending on the browser and server.
+
+            4. Use Cases:-
+                --> GET is generally used for retrieving data or when the action is idempotent (i.e., it does not change the state of the server). 
+                --> Examples include search forms or filtering data.
+
+    POST Method :-
+
+        1. Data Transmission:-
+            --> The POST method sends data in the body of the HTTP request, not in the URL. This allows for larger amounts of data to be sent.
+
+        2. Visibility:- 
+            --> Data sent via POST is not visible in the URL, making it more secure for transmitting sensitive information, such as passwords or personal details.
+
+        3. Data Length:-
+            --> There is no practical limit to the amount of data that can be sent using POST, making it suitable for large data submissions.
+        
+        4. Use Cases:-
+            --> POST is used when submitting data that will change the state of the server, such as creating or updating records. 
+            --> Examples include user registration forms, login forms, and file uploads.
+
+
+    when tousle get method :- 
+
+        1. Retrieving Data:-
+            --> Use GET when the form is used to retrieve or query data without causing any side effects on the server. 
+            --> For example, search forms or filters.
+
+        2. Idempotent Actions:
+            --> GET requests should be idempotent, meaning that making the same request multiple times will not change the state of the server. 
+            --> For instance, fetching a list of products.
+
+        3. Bookmarking and Sharing:-
+            --> If the results of the form submission should be easily shareable or bookmarkable, use GET. 
+            --> The parameters will be included in the URL, making it easy to save or share.
+
+        4. Small Amounts of Data:-
+            --> Use GET when the amount of data being sent is small and does not exceed URL length limits (typically around 2048 characters).
+
+    When to use POST :-
+
+        1. Submitting Data:-
+            --> Use POST when the form is used to submit data that will change the state of the server, such as creating, updating, or deleting records. 
+            --> Examples include user registration, login forms, and data uploads.
+
+        2. Sensitive Information:-
+            --> If the data being submitted includes sensitive information (e.g., passwords, personal details), use POST to keep this data out of the URL 
+                and reduce exposure.
+
+        3. Large Amounts of Data:-
+            --> Use POST when you need to send large amounts of data, such as file uploads or extensive form submissions, as there are no practical limits on
+                 the size of the data sent in the body of the request.
+
+        4. Non-Idempotent Actions:-
+            --> Use POST for actions that are not idempotent, meaning that submitting the same request multiple times may result in different outcomes 
+                (e.g., creating multiple records).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

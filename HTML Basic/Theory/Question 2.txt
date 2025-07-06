@@ -1,0 +1,103 @@
+Explain the basic structure of an HTML document. Identify the mandatory tagsand their purposes.
+
+    --> An HTML document has a basic structure that includes a document typen declaration,
+        the root <html> element,
+        
+        Basic Structure Of an HTML.:->
+            <!doctype HTML>
+            <html lan="en">
+            <head>
+            <meta>
+            <title> Document </title>
+            <link>
+            <style> </style> 
+            <script> </script>
+            <noscript> </noscript>
+            </head>
+            <body>
+            </body>
+            </html>
+
+    Tags and Their Purposes :- 
+
+    1. <!doctype HTML> Declaring the document type :
+        --> the <doctype HTML> declaration is used to specify the version of HTM<L. in this case, it insdicates that the document is written in html 5. which is the latest version of html.
+    
+    2. <html> The root element :
+        --> The html element is the root element  of the html document. everything  inside in this element is considered part of the HTML document.
+        --> here are primary purpose of <html> tag :- 
+            --> Root element
+            --> Document type declaration
+            --> Language attribute 
+            --> character set declaration
+            --> Semantic structure
+    
+    3. <head> 
+        --> The  <head> section contains metadata about the document that isn't display on the webpages. This section includes important element.
+
+    4. <Meta>  :
+        --> Provides metadata such as character set, viewport settings, and other information for browser and search engines.
+        --> Character set declaration
+        --> Page description
+        --> Keywords
+        --> Author information
+        --> Viewport settings
+        --> Refresh and redirect
+        --> Social media integration
+    
+    5. <title> :
+        --> The title tag in html is used to define the title of a web pages.
+        --> This title is displayed in several important places, incliding :-
+        --> This title is crucial for several reasons, as it serves as a key element in both user experiance and search engine optimization.
+        --> Here are primary purpose of the <title> tag :- 
+            --> Browser title bar or tab
+            --> Search engine result
+            --> Bookmarking 
+            --> Social media sharing
+            --> Rss feeds 
+
+    6. <link> :
+        --> The <link> tag in HTML is used to define relationship between the current document and external resource.
+        --> It is almost commonly used to link  to stylesheet, but it can also be used for other purposes.
+        --> here are primary purposes of the <link> tag :-
+            --> Linking stylesheet 
+            --> Favicon
+            --> Preconnect and Prefetch
+            --> Alternate stylesheet
+
+    7. <style> :
+            --> The <style> tag in HTML is used to define internal CSS for a eb page.
+            --> It allows you to apply style directly within the HTML document, affecting the presentation of the content.
+            --> Here are some key point about the <style> tag :-
+                --> location 
+                --> CSS rules
+                --> Scope
+                --> Example
+
+    8. <script> :-
+        --> The <script> tag in HTML is used to embed or reference Java Script code within a web page.
+        --> It allows developers to add interactivity, control multimedia, animate images and perform various other function that enhance the user experience.
+        --> Here are some key point about the <script> tag :
+            --> location
+            --> Inline Java Script
+            --> External Java Script
+            --> Asynchronous and Deferred loading
+  
+    8. <noscript> :-
+        --> The <noscript> tag in HTML is used to provide alternative content for users whose browsers do not support JavaScript or have Java Script disabled.
+        --> It serves as a fallback mechanism to ensure that essential information or functionality is still accessible to all users, regardless of their JavaScript setting.
+        --> Here are some key points about the <noscript> tag :-
+            --> Usage
+            --> Location
+            --> Accessibility
+            --> SEO considerations
+
+    10. <body> visible contant if the web pages :
+        --> The <body> tag in HTML is a fundamental element that defines the main content of an HTML document.
+        --> It contains all the visible elements that are rendered in the web browser, such as text, image, link, video and other multimedia content.
+        --> Here are some key point about the <body> tag :-
+            --> Content container
+            --> Structure
+            --> Styling and scripting
+            --> Accessibility
+            --> Semantic HTML
