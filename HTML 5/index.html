@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      canvas {
+        width: 150px;
+        height: 150px;
+        background-color: red;
+        /* border-radius: 50%; */
+        margin-left: 5%;
+        margin-top: 5%;
+        transition: 0.1s ease all;
+      }
+      canvas:hover {
+        width: 180px;
+        height: 180px;
+        border-radius: 100%;
+        background-color: gold;
+        transform: rotate(-90deg) !important;
+      }
+    </style>
+</head>
+<body>
+    <div>
+        <h2> Audio Tag</h2>
+        <audio controls muted loop only>
+            <source src="./File/Tainu Khabar Nahi.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <div>
+        <h2> Video tag</h2>
+        <video controls width="1000 " height="600" autoplay muted loop>
+            <source src="./File/Tainu Khabar Nahi - Arijit Singh  Munjya  Sharvari, Abhay Verma Sachin-Jigar,Amitabh Bhattacharya - Zee Music Company (144p, h264).mp4">
+        </video>            
+
+    </div>
+
+    <div >
+        <h2 >Svg Tag</h2>    
+        <svg style="margin: 50px;">
+        <polygon points="100,20 180,180 20,180" ></polygon>
+        </svg>
+    </div>
+
+    <div>
+        <h2> Canvas Tag</h2>
+        <canvas></canvas>
+    </div>
+</body>
+</html>

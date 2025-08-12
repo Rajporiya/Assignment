@@ -1,0 +1,101 @@
+• Question 2: What are the additional tags used in HTML5?
+
+    --> HTML5 introduced several new semantic elements and tags that enhance the structure and functionality of web pages. 
+    --> Here are some of the key additional tags used in HTML5:
+
+        1. Semantic Elements:
+
+            --> <header>: Represents the introductory content or a set of navigational links.
+
+            --> <footer>: Represents the footer for its nearest sectioning content or sectioning root element.
+
+            --> <article>: Represents a self-contained composition in a document, such as a blog post or news article.
+
+            --> <section>: Represents a thematic grouping of content, typically with a heading.
+
+            --> <nav>: Represents a section of navigation links.
+
+            --> <aside>: Represents content that is tangentially related to the content around it, often used for sidebars.
+
+            --> <main>: Represents the main content of the document, excluding headers, footers, and sidebars.
+
+        2. Media Elements:
+
+            --> <audio>: Used to embed sound content in documents.
+
+            --> <video>: Used to embed video content in documents.
+
+            --> <track>: Used to specify text tracks for <video> and <audio> elements, such as subtitles or captions.
+
+        3. Form Elements:
+
+            --> <progress>: Represents the progress of a task.
+
+            --> <meter>: Represents a scalar measurement within a known range, or a fractional value.
+
+            --> New input types for <input> element:
+
+                    --> email: For email addresses.
+
+                    --> url: For URLs.
+
+                    -->date: For date input.
+
+                    --> time: For time input.
+
+                    --> datetime-local: For date and time input.
+
+                    --> number: For numeric input.
+
+                    --> range: For selecting a value from a range.
+
+                    --> color: For selecting a color.
+
+        4. Scripting and APIs:
+
+            --> <canvas>: Used to draw graphics on the fly via scripting (usually JavaScript).
+
+            --> <svg>: Used to define vector-based graphics directly in the document.
+
+            --> <details>: Represents a disclosure widget from which the user can obtain additional information or controls.
+
+        5. Other Elements:
+
+            --> <time>: Represents a specific period in time.
+
+            --> <dialog>: Represents a dialog box or other interactive component.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

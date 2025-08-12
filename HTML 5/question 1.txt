@@ -1,0 +1,83 @@
+Difference b/w HTML & HTML5?
+
+    --> HTML (HyperText Markup Language) and HTML5 are both markup languages used for creating and structuring content on the web. 
+    --> However, there are several key differences between them:
+
+        1. Doctype Declaration:
+
+            --> HTML: The doctype declaration for HTML is more complex, e.g., <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 
+                Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">.
+            
+            --> HTML5: The doctype is simplified to <!DOCTYPE html>.
+
+        2. New Elements:
+
+            --> HTML: Contains a limited set of elements.
+
+            --> HTML5: Introduces new semantic elements such as <header>, <footer>, <article>, <section>, <nav>, and <aside>, which help 
+                in structuring the content more meaningfully.
+
+        3. Multimedia Support:
+
+            --> HTML: Requires third-party plugins (like Flash) for audio and video.
+
+            --> HTML5: Provides native support for audio and video with the <audio> and <video> elements, allowing for easier embedding 
+                and playback.
+
+        4. Form Enhancements:
+
+            --> HTML: Basic form elements and attributes.
+
+            --> HTML5: Introduces new input types (e.g., email, date, range, color) and attributes (e.g., placeholder, autofocus, required), 
+                enhancing form functionality and user experience.
+
+        5. APIs and Features:
+
+            --> HTML: Limited in terms of APIs.
+
+            --> HTML5: Includes various APIs such as the Canvas API for drawing graphics, the Geolocation API for location-based services, 
+                and the Web Storage API for storing data locally.
+
+        6. Error Handling:
+
+            --> HTML: More strict about syntax and structure, leading to more errors in rendering.
+
+            --> HTML5: More forgiving of errors, allowing for better compatibility across different browsers.
+        
+        7. Compatibility:
+
+            --> HTML: Older versions may not be fully compatible with modern browsers.
+
+            --> HTML5: Designed to be backward compatible with older HTML versions while also being forward-compatible with future developments.
+
+
+    In summary, HTML5 is a more advanced and flexible version of HTML, designed to support modern web applications and improve the overall 
+    user experience on the web.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+        
+
+
+
+
