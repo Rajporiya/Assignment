@@ -1,0 +1,121 @@
+    .header-section {
+      background-color: #f04e23;
+      color: white;
+      padding: 60px 0;
+      text-align: center;
+    }
+    .header-section input[type="email"] {
+      max-width: 300px;
+      display: inline-block;
+    }
+    .navbar-custom {
+      background-color: #f04e23;
+    }
+    .navbar-custom .nav-link, 
+    .navbar-custom .navbar-brand {
+      color: rgba(255, 255, 255, 0.7);
+      font-weight: 300;
+      letter-spacing: 1.2px;
+      font-size: 14px;
+    }
+
+    .footer-text {
+      font-size: 12px;
+      color: #999;
+    }
+
+
+    .graph-icon {
+      max-width: 100%;      
+      height: auto;
+      fill: #f4511e; 
+    }
+
+    .service-icon {
+      font-size: 2.5rem;
+      color: #d9534f; 
+    }
+    .service-heading {
+      font-weight: bold;
+      margin-top: 10px;
+      text-transform: uppercase;
+      font-size: 1rem;
+      color: #d9534f;
+    }
+    .service-subheading {
+      font-size: 0.9rem;
+      margin-top: 5px;
+      color: #555;
+      text-transform: capitalize;
+    }
+    .service-text {
+      font-size: 0.85rem;
+      color: #777;
+      margin-top: 5px;
+    }
+    .section-title {
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+    .section-subtitle {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    .section-divider {
+      background-color: #f2f2f2;
+      height: 40px;
+      margin: 40px 0;
+    }
+
+    .portfolio-img {
+      height: 200px;
+      object-fit: cover;
+      width: 100%;
+      border-radius: 4px;
+    }
+    .carousel-item blockquote {
+      font-style: italic;
+      font-size: 1.1rem;
+    }
+    .carousel-item .author {
+      margin-top: 0.5rem;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+     .pricing-header {
+      background-color: #FF5722;
+      color: white;
+      padding: 1.2rem 0;
+      text-align: center;
+      font-weight: 600;
+    }
+    .pricing-card {
+      border: 1px solid #ddd;
+      border-top: 4px solid #FF5722;
+      margin-bottom: 1.5rem;
+    }
+    .btn-orange {
+      background-color: #FF5722;
+      border: none;
+    }
+    .btn-orange:hover {
+      background-color: #e64a19;
+    }
+    .contact-info i {
+      color: #FF5722;
+      margin-right: 0.5rem;
+    }
+    .contact-section {
+      background: #f8f9fa;
+      padding: 3rem 0;
+    }
+
+
+
+
+
+    
